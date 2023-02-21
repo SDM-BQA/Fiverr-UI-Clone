@@ -1,0 +1,47 @@
+.add {
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 1400px;
+    h1 {
+      color: lightgray;
+      margin-bottom: 25px;
+    }
+    padding: 50px;
+    .sections {
+      display: flex;
+
+      justify-content: space-between;
+      margin-bottom: 20px;
+      gap: 100px;
+      .left,
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+        flex: 1;
+        label {
+          color: gray;
+          font-style: 18px;
+        }
+        input,
+        textarea,
+        select {
+          padding: 20px;
+          outline: 0;
+          resize: 0;
+        }
+        button {
+          border: none;
+          padding: 20px;
+          color: white;
+          font-weight: 500;
+          font-size: 18px;
+          background-color: #1dbf73;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

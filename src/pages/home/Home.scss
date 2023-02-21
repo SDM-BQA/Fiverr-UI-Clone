@@ -1,0 +1,102 @@
+.home {
+  .features {
+    &.blue {
+      background-color: #0d084d;
+    }
+    background-color: #f1fdf7;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 1400px;
+
+      .left {
+        width: 50%;
+        margin-bottom: 20px;
+      }
+      .para {
+        margin-top: 20px;
+        .head {
+          display: flex;
+          align-items: center;
+          span {
+            font-weight: 600;
+            font-size: 20px;
+          }
+          img {
+            width: 25px;
+            margin-right: 15px;
+          }
+        }
+        .ex {
+          margin-top: 10px;
+          font-size: 17px;
+          width: 500px;
+        }
+      }
+      .feat2-left {
+        display: flex;
+        flex-direction: column;
+
+        color: #fff;
+        gap: 50px;
+        h2 {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          span {
+            font-size: 12px;
+            background-color: rgb(13, 6, 199);
+            padding: 5px 15px;
+            border-radius: 10px;
+          }
+        }
+        h1 {
+          width: 400px;
+          i {
+            font-weight: normal;
+          }
+        }
+        p {
+          width: 400px;
+          font-size: 20px;
+        }
+        .checks {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .check {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            font-size: 18px;
+            img {
+              width: 25px;
+            }
+          }
+        }
+        button {
+          display: inline-block;
+          background-color: #1dbf73;
+          color: #fff;
+          padding: 15px;
+          font-weight: 600;
+          font-size: 18px;
+          cursor: pointer;
+          &:hover {
+            background-color: #1f985f;
+          }
+        }
+      }
+      .feat2-right {
+        img {
+          width: 750px;
+        }
+      }
+    }
+  }
+}

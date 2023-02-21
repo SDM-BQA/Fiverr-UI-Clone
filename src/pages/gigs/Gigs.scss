@@ -1,0 +1,79 @@
+.gigs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  .container {
+    width: 1400px;
+
+    .breadCrumb {
+      color: #95a9c0;
+      margin: 15px 0 20px;
+    }
+
+    .catHead {
+      h1 {
+        font-weight: bolder;
+        margin-bottom: 5px;
+      }
+      p {
+        color: #848e9a;
+      }
+    }
+
+    .cards {
+      margin-top: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 15px;
+      span {
+        margin-right: 10px;
+        color: #848e9a;
+      }
+      input {
+        padding: 5px;
+        outline: 0;
+      }
+      button {
+        padding: 5px;
+        font-weight: bold;
+        background-color: #55ae78;
+        color: #fff;
+        // border: px solid lightgray;
+        border-color: #55ae78;
+        cursor: pointer;
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        position: relative;
+        img {
+          width: 20px;
+          cursor: pointer;
+        }
+        .sortType {
+          font-weight: 600;
+        }
+        .rightMenu {
+          position: absolute;
+          top: 30px;
+          right: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          padding: 10px;
+          border-radius: 5px;
+          background-color: #fff;
+          border: 1px solid lightgray;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
